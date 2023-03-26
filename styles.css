@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Gfont;
+    src: url(zh-cn.ttf);
+}
+  
+h1 {
+    font-weight: lighter;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+* {
+    text-align: center;
+    cursor: url(Item_Primogem.png), auto;
+    font-family: Gfont;
+    color: white;
+}
+
+body {
+    background-image: url(genshinbg.png);
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: inline-flex;
+}
+
+.num1c {
+    background-image: url(anemo.png);
+    height: 343.8px;
+    width: 261px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+#num1sub, #num2sub, #num3sub {
+    padding-top: 45px;
+    padding-right: 50px;
+    font-size: 25px;
+}
+
+#num1, #num2, #num3 {
+    font-size: 50px;
+    padding-right: 50px;
+}
+
+.num2c {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-image: url(pyro.png);
+    height: 343.8px;
+    width: 261px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.num3c {
+    background-image: url(geo.png);
+    height: 343.8px;
+    width: 261px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+#mostnumber, #letter, #time {
+    font-size: 14px;
+}
